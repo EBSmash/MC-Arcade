@@ -1,4 +1,4 @@
-package io.ebs.arcade.module.client;
+package io.ebs.arcade.module.client.Snake;
 
 import com.mojang.realmsclient.gui.ChatFormatting;
 import io.ebs.arcade.module.Category;
@@ -7,7 +7,6 @@ import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.SoundCategory;
-import net.minecraftforge.client.event.GuiScreenEvent;
 import org.lwjgl.input.Keyboard;
 
 import java.util.ArrayList;
