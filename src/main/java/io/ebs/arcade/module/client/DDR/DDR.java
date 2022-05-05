@@ -11,8 +11,6 @@ import java.util.Random;
 public class DDR extends Module {
     public DDR() {
         super("DDR", "DDR games", Category.ARCADE);
-        setKey(Keyboard.KEY_O);
-
     }
     public static DDR instance;
     public static int fromX, toX;
@@ -42,20 +40,20 @@ public class DDR extends Module {
         fromY = 150;
         toY = fromY + 250;
 
-        bottomFromX = fromX +30;
-        bottomToY = fromY +30;
+        bottomFromX = fromX -30;
+        bottomToY = fromY -30;
 
         bottomFromXOne = fromX +60;
-        bottomToYOne = fromY +30;
+        bottomToYOne = fromY -30;
 
         bottomFromXTwo = fromX +90;
-        bottomToYTwo = fromY +30;
+        bottomToYTwo = fromY -30;
 
         bottomFromXThree = fromX +120;
-        bottomToYThree = fromY +30;
+        bottomToYThree = fromY -30;
 
         bottomFromXFour = fromX +150;
-        bottomToYFour = fromY +30;
+        bottomToYFour = fromY -30;
 
 
         GuiScreen.drawRect(fromX, fromY, toX, toY, 0xFF000000);
