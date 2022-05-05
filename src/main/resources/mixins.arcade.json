@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "io.ebs.arcade.mixin.mixins",
+  "refmap": "mixins.arcade.refmap.json",
+  "mixins": [
+    "MixinEntityPlayerSP"
+  ]
+}
